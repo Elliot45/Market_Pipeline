@@ -1,10 +1,10 @@
-# 📈 Real-Time Market Data Pipeline
+#  Real-Time Market Data Pipeline
 
 This project is a real-time multi-ticker data pipeline fetching market data using Yahoo Finance API, visualized through a Streamlit dashboard, and fully dockerized for easy deployment.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Fetches real-time data for multiple tickers (AAPL, MSFT, BTC-USD, etc.)
 - Streamlit dashboard displaying:
@@ -16,17 +16,17 @@ This project is a real-time multi-ticker data pipeline fetching market data usin
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 market-pipeline/ ├── data_collector/ │ ├── main.py │ └── yahoo_fetcher.py ├── dashboard/ │ └── app.py ├── storage/ │ └── save_parquet.py ├── data/ (ignored by .gitignore) ├── Dockerfile.collector ├── Dockerfile.dashboard ├── docker-compose.yml ├── requirements.txt ├── README.md ├── .gitignore
 
 ---
 
-## 🐳 How to Run
-
-1. Clone the repo:
+##  How to Run
 
 ```bash
+1. Clone the repo:
+
 git clone https://github.com/.../Market_Pipeline.git
 cd Market_Pipeline
 
@@ -45,7 +45,8 @@ http://localhost:8501
 
 ---
 
-AUTHOR
-Elliot Piet
+## AUTHOR
+
+Elliot Piet  
 Quant | Data Engineer
 
