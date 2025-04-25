@@ -1,5 +1,7 @@
 #  Real-Time Market Data Pipeline
 
+![Dashboard Screenshot](dashboard_screenshot.png)  
+
 This project is a real-time multi-ticker data pipeline fetching market data using Yahoo Finance API, visualized through a Streamlit dashboard, and fully dockerized for easy deployment.
 
 ---
