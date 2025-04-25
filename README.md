@@ -41,6 +41,7 @@ docker compose up --build
 3. Access the dashboard at : 
 
 http://localhost:8501
+```
 
 ---
 
