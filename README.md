@@ -20,7 +20,21 @@ This project is a real-time multi-ticker data pipeline fetching market data usin
 
 ##  Project Structure
 
-market-pipeline/ ├── data_collector/ │ ├── main.py │ └── yahoo_fetcher.py ├── dashboard/ │ └── app.py ├── storage/ │ └── save_parquet.py ├── data/ (ignored by .gitignore) ├── Dockerfile.collector ├── Dockerfile.dashboard ├── docker-compose.yml ├── requirements.txt ├── README.md ├── .gitignore
+market-pipeline/  
+├── data_collector/  
+│ ├── main.py  
+│ └── yahoo_fetcher.py  
+├── dashboard/  
+│ └── app.py  
+├── storage/  
+│ └── save_parquet.py  
+├── data/ (ignored by .gitignore)  
+├── Dockerfile.collector  
+├── Dockerfile.dashboard  
+├── docker-compose.yml  
+├── requirements.txt  
+├── README.md  
+├── .gitignore
 
 ---
 
