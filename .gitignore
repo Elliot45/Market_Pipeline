@@ -1,0 +1,23 @@
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Fichiers Docker
+*.log
+
+# Dossiers de données
+data/
+*.parquet
+
+# Dossiers et fichiers système
+.DS_Store
+Thumbs.db
+
+# Environnements virtuels
+.venv/
+env/
+ENV/
+venv/
